@@ -1,0 +1,145 @@
+{
+  "version": "2025.0",
+  "command": {
+    "type": "sequential",
+    "data": {
+      "commands": [
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AutonM"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ReleaseCoral"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.5
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "StopDumpster"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AutonM-1"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.0
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "LockCoral"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.1
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "StopDumpster"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AutonM-2"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ReleaseCoral"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.5
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "StopDumpster"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AutonM-3"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 1.0
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "LockCoral"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.1
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "StopDumpster"
+          }
+        },
+        {
+          "type": "path",
+          "data": {
+            "pathName": "AutonM-4"
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "ReleaseCoral"
+          }
+        },
+        {
+          "type": "wait",
+          "data": {
+            "waitTime": 0.5
+          }
+        },
+        {
+          "type": "named",
+          "data": {
+            "name": "StopDumpster"
+          }
+        }
+      ]
+    }
+  },
+  "resetOdom": true,
+  "folder": null,
+  "choreoAuto": false
+}
